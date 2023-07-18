@@ -18,8 +18,8 @@ const AboutUs = () => {
     <div>
         <section className="breadcrumb-area d-flex  p-relative align-items-center">
             <div className="grid">
-                <div className="row align-items-center">
-                    <div className="col-xl-12 col-lg-12 ">
+                <div className="align-items-center">
+                    <div className="col-12 ">
                         <div className="breadcrumb-wrap text-left">
                             <div className="breadcrumb-title">
                                 <h2>About Us</h2>
@@ -43,11 +43,11 @@ const AboutUs = () => {
         <div className="grid mt-5">
             <div className="flex flex-row flex-wrap  ">
                 <div className="col-6 mt-8 p-8">
-                    <div className="s-about-img p-relative  wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s" >
-                        <img decoding="async" src="https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/about_img_05.png" alt="https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/about_img_05.png"/>
+                    <div className="s-about-img p-relative">
+                        <img src="https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/about_img_05.png" alt="https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/about_img_05.png"/>
                     </div>
                 </div>
-                <div className="col-6 col-sm-12 col-md-12">
+                <div className="col-6">
                     <div className="about-content s-about-content" >
                         <div className="about-title second-title pb-25">
                             <h5 className=" g-heading ml-7 text-orange-400 text-2xl" ><FaGraduationCap /> About Our University</h5>
@@ -58,7 +58,7 @@ const AboutUs = () => {
                         <div className="about-content2">
                             <div className="flex flex-row flex-wrap col-12">
                                 <div className="col-6 flex flex-row flex-wrap">
-                                    <ul className="green2">
+                                    <ul className="">
                                         <li>
                                             <div className="abcontent">
                                                 <div className="text flex flex-row flex-wrap">
