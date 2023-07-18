@@ -1,0 +1,256 @@
+.breadcrumb-area {
+    background-color: #20282E;
+    background-image: url(https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/bdrc-bg.png);
+}
+
+.p-relative {
+    position: relative;
+}
+
+.breadcrumb-area {
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    
+}
+
+
+.breadcrumb-wrap.text-left {
+    text-align: center !important;
+}
+
+.breadcrumb-title h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.breadcrumb-title h2 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 1px;
+}
+h2{
+    margin-left: 560px;
+    font-size: 49px!important;
+}
+
+.breadcrumb-wrap2 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    z-index: 1;
+}
+.breadcrumb {
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: unset;
+    border-radius: 30px;
+    background: #ff7350;
+    padding: 15px 35px;
+    position: relative;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.breadcrumb li {
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.breadcrumb > .active {
+    color: #fffc !important;
+    font-weight: 500;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.5rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: #ddd;
+    content: "|";
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.animated {
+    animation-duration: 1.25s;
+}
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.s-about-img img {
+}
+.img, img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.about-text.second-about.three-about {
+    right: 42%;
+    top: 68%;
+}
+.about-text{
+    background-color: #ff7350;
+}
+.blog-heading{
+    margin-left: 50px;
+    
+}
+.s-about-content .txt-clr {
+    color: #245b73;
+    font-size: 18px;
+    line-height: 28px;
+}
+.about-content2 .abcontent {
+    display: flex;
+}
+.ano{
+    background-color: #ff7350;
+    font-size: 20px;
+    width: 55px;
+    height: 56px;
+    text-align: center;
+    margin-right: 15px;
+    color: #fff;
+    display: block;
+    border-radius: 90%;
+    font-weight: 500;
+    line-height: 56px;
+    font-family: 'Jost', sans-serif;
+}
+text {
+    padding-top: 5px;
+}
+
+.sc-container{
+    background-image: url(https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/cta_bg02.png);
+}
+.margin-right{
+    margin-right: 350px;
+}
+.button{
+    color: white;
+    font-size: 22px;
+    background-color: #ff7350;
+    height: 70px;
+    width: 190px;
+    border-radius: 10px;
+    border-color: #ff7350;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.last-container{
+    background-color: #245b73;
+}
+.image{
+    height: 70vh;
+    margin: -8px;
+}
+.image1{
+    margin-left: 7px;
+    height: 70vh;
+    
+
+}
+.last-container1 {
+    background-color: #245b73;
+    margin-top: 10px;
+    margin-left: -8px;
+}
+.icon{
+    background-color: #ff7350;
+    width: 75px;
+    height: 66px;
+    margin-left: 25px;
+    margin-top: 5px ;
+    border-radius: 90%;
+    font-weight: 500;
+    line-height: 6px;
+    padding: 10px;
+}
+.card-heading{
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 60px;
+}
+.card-color{
+    border-color: orangered;
+  }
